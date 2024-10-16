@@ -14,10 +14,14 @@ public class Item {
     private String nombre;
     private int valor; 
 
-    public Item(int id, String nombre, int valor) {
-        this.id = id;
+    public Item( String nombre, int valor) {
+        this.id = 0;
         this.nombre = nombre;
         this.valor = valor;
+    }
+    
+    public String getNombre() {
+        return nombre;
     }
     
 }
